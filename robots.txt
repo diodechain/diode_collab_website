@@ -1,4 +1,4 @@
 User-agent: * 
 Disallow: /products/collab-li/
 Disallow: /products/collab-x/
-Sitemap: https://diode.io/sitemap.xml
+Sitemap: https://collab.diode.io/sitemap.xml
