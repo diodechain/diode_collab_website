@@ -81,7 +81,8 @@ collab_a_hero:
 
 <div class="collab-a-row1">
   <div class="collab-a-col-left">
-    <object data="{{ 'home/phone-outline.svg' | prepend: site.path.images | relative_url }}" class="collab-a-graphic2" type="image/svg+xml" aria-hidden="true"></object>
+    <img src="{{ 'home/phone-outline.png' | prepend: site.path.images | relative_url }}" class="collab-a-graphic2" type="image/svg+xml" aria-hidden="true"></object>
+    <img src="{{ 'home/phone-outline-bg.png' | prepend: site.path.images | relative_url }}" class="collab-a-graphic2-bg" type="image/svg+xml" aria-hidden="true"></object>
     <div class="collab-a-line-top"></div>
     <img src="{{ 'home/in-phone-recording.gif' | prepend: site.path.images | relative_url }}" alt="" class="collab-a-img collab-a-mobile-chat" />
   </div>

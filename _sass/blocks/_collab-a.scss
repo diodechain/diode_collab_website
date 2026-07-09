@@ -185,14 +185,25 @@ body.page--collab-a {
 
 .collab-a-graphic2 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 25px;
+  left: 7px;
   right: 0;
-  height: 555.1px;
+  height: 444px;
   max-width: none;
 }
 
+.collab-a-graphic2-bg {
+  position: absolute;
+  top: 25px;
+  left: 7px;
+  right: 0;
+  height: 444px;
+  max-width: none;
+  z-index: -4;
+}
+
 .collab-a-line-top {
+  display: none;
   position: relative;
   z-index: 1;
   margin-right: -0.7px;
@@ -204,7 +215,7 @@ body.page--collab-a {
 
 .collab-a-mobile-chat {
   position: relative;
-  z-index: 2;
+  z-index: -2;
   width: 100%;
   max-width: 216.3px;
   align-self: center;
