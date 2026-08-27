@@ -10,7 +10,6 @@
                 <header class="post__header">
                     <h1 class="h2 post__title">{{ page.title }}</h1>
                     <p class="post__info">
-                        {%- if page.author %}by {{ page.author }} | {% endif -%}
                         {{ page.date | date: "%B %d, %Y" }}
                         | Category: {{ page.tags | first }}
                     </p>
