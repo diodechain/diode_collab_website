@@ -11,7 +11,6 @@
         {% if post.date %}
             <div class="blog__date">
                 <div class="date">{{ post.date | date: "%d" }} {{ post.date | date: "%b" }}</div>
-                <div class="time">{{ post.date | date: "%H:%M" }}</div>
             </div>
         {% endif %}
     </header>
