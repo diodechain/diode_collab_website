@@ -47,6 +47,9 @@ nav:
 forms:
   contact: "https://diodeforms.diode.link/f/contact?source=collab.diode.io"
   demo: "https://diodeforms.diode.link/f/demo?source=collab.diode.io"
+  affiliate_interest: "https://diodeforms.diode.link/f/affiliate_interest?source=collab.diode.io"
+  affiliate_lead: "https://diodeforms.diode.link/f/affiliate_lead?source=collab.diode.io"
+  vault_waitlist: "https://diodeforms.diode.link/f/vault_waitlist?source=collab.diode.io"
   source: "collab.diode.io"
 
 # Other Links

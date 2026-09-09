@@ -26,7 +26,7 @@ story:
     It relays encrypted messages on behalf of offline team members, backs up files, and provides a private exit node to give your team ex-region Internet access.
   buttons:
   - title: SIGN UP
-    url: "https://mk4kxqqc.paperform.co/"
+    url: "site.forms.vault_waitlist"
     target: _blank
   - title: SCHEDULE A DEMO
     class: btn--blank btn--arrow

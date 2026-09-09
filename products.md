@@ -86,7 +86,7 @@ vault:
     Backup, timezone-bridging, network exit node
   buttons:
   - title: Sign up
-    url: "https://mk4kxqqc.paperform.co/"
+    url: "site.forms.vault_waitlist"
     target: _blank
   image:
     src: story/vault.webp

@@ -4,11 +4,17 @@
   Input:  href_in
   Output: href_out
 
-  Front matter may use the tokens site.forms.contact or site.forms.demo.
+  Front matter may use tokens like site.forms.demo or site.forms.vault_waitlist.
 {% endcomment %}
 {% assign href_out = href_in %}
 {% if href_in == 'site.forms.demo' or href_in == 'forms.demo' %}
   {% assign href_out = site.forms.demo %}
 {% elsif href_in == 'site.forms.contact' or href_in == 'forms.contact' %}
   {% assign href_out = site.forms.contact %}
+{% elsif href_in == 'site.forms.affiliate_interest' or href_in == 'forms.affiliate_interest' %}
+  {% assign href_out = site.forms.affiliate_interest %}
+{% elsif href_in == 'site.forms.affiliate_lead' or href_in == 'forms.affiliate_lead' %}
+  {% assign href_out = site.forms.affiliate_lead %}
+{% elsif href_in == 'site.forms.vault_waitlist' or href_in == 'forms.vault_waitlist' %}
+  {% assign href_out = site.forms.vault_waitlist %}
 {% endif %}

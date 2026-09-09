@@ -12,6 +12,14 @@ hero:
   heading: Diode Affiliate Agreement
   subheading: This Diode Affiliate Agreement is effective as of November 15, 2023.
   image: hero/download.webp
+  buttons:
+  - title: APPLY TO BECOME AN AFFILIATE
+    url: "site.forms.affiliate_interest"
+    target: _blank
+  - title: REGISTER A LEAD
+    class: btn--blank btn--arrow
+    url: "site.forms.affiliate_lead"
+    target: _blank
 
 ---
 
@@ -50,7 +58,7 @@ i) Not make any false or misleading representations with respect to the Services
 j) Comply with all applicable laws, rules, and regulations applicable to Affiliate’s activities under or in connection with this Agreement.
 
 ### 4. Customer Lead Approval
-In order to be paid a Commission, and prior to engaging in any sale of Subscriptions to a Customer Lead, or referring a Customer Lead to Diode, Affiliate shall register such Customer Lead with Diode, by submitting a Customer Lead registration form, accessible at: https://93skrhki.paperform.co and providing complete and accurate information regarding such Customer Lead, and the Affiliate’s role with respect to such Customer Lead relative to the purchase of Subscriptions from Diode. All Customer Leads, as well as any Subscriptions from such Customer Leads, are subject to the approval and acceptance by Diode in its sole discretion. Diode may reject any Customer Lead at any time in its sole discretion, including, but not limited to, if there is a possibility that the Customer Lead is the focus of a pre-existing sales effort by Diode or another affiliate of Diode or presents a credit or liability risk. Diode shall notify the Affiliate if any Customer Lead is approved by Diode as a Customer or is rejected by Diode, without any obligation to provide any reasons therefore. Affiliate shall not earn any Commission with respect to a Customer Lead that has not been approved by Diode. Should Customer cancel their registered Subscriptions and later re-register with different credentials not clearly identified with the same Customer Lead, a new Customer Lead approval process will be required.
+In order to be paid a Commission, and prior to engaging in any sale of Subscriptions to a Customer Lead, or referring a Customer Lead to Diode, Affiliate shall register such Customer Lead with Diode, by submitting a Customer Lead registration form, accessible at: {{ site.forms.affiliate_lead }} and providing complete and accurate information regarding such Customer Lead, and the Affiliate’s role with respect to such Customer Lead relative to the purchase of Subscriptions from Diode. All Customer Leads, as well as any Subscriptions from such Customer Leads, are subject to the approval and acceptance by Diode in its sole discretion. Diode may reject any Customer Lead at any time in its sole discretion, including, but not limited to, if there is a possibility that the Customer Lead is the focus of a pre-existing sales effort by Diode or another affiliate of Diode or presents a credit or liability risk. Diode shall notify the Affiliate if any Customer Lead is approved by Diode as a Customer or is rejected by Diode, without any obligation to provide any reasons therefore. Affiliate shall not earn any Commission with respect to a Customer Lead that has not been approved by Diode. Should Customer cancel their registered Subscriptions and later re-register with different credentials not clearly identified with the same Customer Lead, a new Customer Lead approval process will be required.
 
 ### 5. Commissions
 In consideration of Affiliate’s performance hereunder, Diode shall pay Affiliate a commission (the “Commission”) of 10% of Adjusted Gross Revenue received by Diode, minus any Adjustments and Set-Offs, for at least the first 24 months of approved Subscriptions.  Commissions will continue past 24 months so long as the Affiliate remains in Good Standing. Commissions will be paid immediately if the Affiliate participates in Diode's automated payment system, or before the fourtieth day (40th) day following the last day of the month that the total Commission balance exceeds $100 USD. Except as provided herein, Affiliate shall receive no other sums, compensation, remuneration, fees, reimbursements, or payments from Diode and Affiliate waives any right to claim any such sums, compensation, remuneration, fees, or payments.
