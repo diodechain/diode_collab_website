@@ -1,8 +1,8 @@
-<form class="footer__form" action="https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io" method="post" autocomplete="off">
+<form class="footer__form" action="{{ site.forms.contact }}" method="post" autocomplete="off">
     <p class="form-heading">Get in touch</p>
     <a href="#top" class="scrollto">^</a>
     <input type="hidden" name="form" value="contact">
-    <input type="hidden" name="source" value="collab.diode.io">
+    <input type="hidden" name="source" value="{{ site.forms.source }}">
     <div class="form-group">
         <input type="text" class="form-control" name="name" maxlength="40" required value="" placeholder="Name">
     </div>

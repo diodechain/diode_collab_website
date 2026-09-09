@@ -13,7 +13,7 @@ hero:
   subheading: Protect global teams with secure incident reporting and automated emergency notification distribution to your Crisis Response Team
   buttons:
   - title: Request a Demo
-    url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
+    url: "site.forms.demo"
     class: popup-open
     id: g3-demo
   image: hero/app.webp
@@ -73,7 +73,7 @@ features:
     buttons:
     - title: REQUEST A DEMO
       class: btn--blank btn--arrow
-      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
+      url: "site.forms.demo"
       target: _blank
     
   - title: Access the Internet from Anywhere

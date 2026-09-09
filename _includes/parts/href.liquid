@@ -1,0 +1,14 @@
+{% comment %}
+  Resolve form / CTA hrefs from _config.yml (same idea as site.download.app.*).
+
+  Input:  href_in
+  Output: href_out
+
+  Front matter may use the tokens site.forms.contact or site.forms.demo.
+{% endcomment %}
+{% assign href_out = href_in %}
+{% if href_in == 'site.forms.demo' or href_in == 'forms.demo' %}
+  {% assign href_out = site.forms.demo %}
+{% elsif href_in == 'site.forms.contact' or href_in == 'forms.contact' %}
+  {% assign href_out = site.forms.contact %}
+{% endif %}

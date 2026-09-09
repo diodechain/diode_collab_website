@@ -53,7 +53,7 @@ features:
       target: _blank
     - title: SCHEDULE A DEMO
       class: btn--blank btn--arrow
-      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
+      url: "site.forms.demo"
       target: _blank
   - title: Zones and Fleet Contracts
     content: Fleet Contracts are the basic security perimeter element of the Diode Network - every Client must belong to at least one Fleet Contract so that the network can provision communications. Zones are a special type of Fleet Contract that are used by people and businesses to ring fence operations - including the operation of other Fleet Contracts.

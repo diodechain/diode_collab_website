@@ -57,7 +57,7 @@
                             {%- if solution.title -%}<h3>{{ solution.title }}</h3>{% endif %}
                             {%- if solution.content -%}<p>{{ solution.content }}</p>{% endif %}
                             {% if solution.button -%}
-                                {% assign btn_url = solution.button.url %}
+                                {% assign href_in = solution.button.url %}{% include parts/href.liquid %}{% assign btn_url = href_out %}
                                 {% if btn_url and btn_url != "" and btn_url[0] == "/" %}
                                     <a href="{{ btn_url | relative_url }}" class="btn {{ solution.button.class }}" target="{{ solution.button.target }}">{{ solution.button.title }}</a>
                                 {% else %}
@@ -74,7 +74,7 @@
         {%- if data.buttons -%}
             <div class="box__buttons">
                 {% for button in data.buttons %}
-                    <a href="{{ button.url }}" class="btn {{ button.class }}" target="{{ button.target }}">{{ button.title }}</a>
+                    {% assign href_in = button.url %}{% include parts/href.liquid %}<a href="{{ href_out }}" class="btn {{ button.class }}" target="{{ button.target }}">{{ button.title }}</a>
                 {% endfor %}
             </div>
         {% endif %}

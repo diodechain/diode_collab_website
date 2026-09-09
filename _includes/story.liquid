@@ -68,7 +68,7 @@
                 {%- if data.buttons -%}
                     <div class="story__buttons">
                         {% for button in data.buttons %}
-                            <a href="{{ button.url | relative_url }}" class="btn {{ button.class }}" target="{{ button.target }}">{{ button.title }}</a>
+                            {% assign href_in = button.url %}{% include parts/href.liquid %}<a href="{% if href_out contains '://' or href_out contains '#' %}{{ href_out }}{% else %}{{ href_out | relative_url }}{% endif %}" class="btn {{ button.class }}" target="{{ button.target }}">{{ button.title }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}

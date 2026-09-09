@@ -32,7 +32,7 @@
                         {% endif %}
                         <div class="pricing__plan-action">
                             {% if plan.action %}
-                                <a href="{{ plan.action }}" class="btn btn-primary pricing-get-started">{{ plan.button }}</a>
+                                {% assign href_in = plan.action %}{% include parts/href.liquid %}<a href="{{ href_out }}" class="btn btn-primary pricing-get-started">{{ plan.button }}</a>
                             {% else %}
                                 <a href="#download-app" class="btn btn-primary pricing-get-started popup-open" data-plan-url="{{ plan.id.monthly }}" data-ios-url="{{ site.download.app.ios }}" data-android-url="{{ site.download.app.android }}">{{ plan.button }}</a>
                             {% endif %}

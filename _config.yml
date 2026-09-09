@@ -43,6 +43,12 @@ nav:
 - title: Download
   url: "/download/"
 
+# Form Handler URLs — change once here (same pattern as download.app below).
+forms:
+  contact: "https://diodeforms.diode.link/f/contact?source=collab.diode.io"
+  demo: "https://diodeforms.diode.link/f/demo?source=collab.diode.io"
+  source: "collab.diode.io"
+
 # Other Links
 links:
   download:
