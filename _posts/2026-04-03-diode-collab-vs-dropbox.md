@@ -55,6 +55,6 @@ Diode Collab empowers privacy-centric teams with sovereign, resilient collaborat
 
 To explore further please:
 <div class="story__buttons">
-  <a href="{{"https://contactdiode.paperform.co"}}" class="btn" target="">Get in Touch</a>
+  <a href="{{"https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"}}" class="btn" target="">Get in Touch</a>
   <a href="#download-app" class="btn popup-open" target="">Try Diode Out</a>
 </div>

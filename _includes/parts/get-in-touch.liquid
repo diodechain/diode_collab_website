@@ -1,11 +1,16 @@
-<form class="footer__form" action="https://contactdiode.paperform.co/" method="get" autocomplete="off">
+<form class="footer__form" action="https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io" method="post" autocomplete="off">
     <p class="form-heading">Get in touch</p>
     <a href="#top" class="scrollto">^</a>
+    <input type="hidden" name="form" value="contact">
+    <input type="hidden" name="source" value="collab.diode.io">
     <div class="form-group">
         <input type="text" class="form-control" name="name" maxlength="40" required value="" placeholder="Name">
     </div>
     <div class="form-group">
         <input type="email" class="form-control" name="email" maxlength="40" required value="" placeholder="Email">
+    </div>
+    <div style="position:absolute;left:-9999px;height:0;overflow:hidden;" aria-hidden="true">
+        <input type="text" name="company_website" tabindex="-1" autocomplete="off" value="">
     </div>
     <input type="submit" class="btn" value="Submit">
 </form>

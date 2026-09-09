@@ -57,7 +57,7 @@ features:
       url: "/how-it-works/"
     - title: SCHEDULE A DEMO
       class: btn--blank btn--arrow
-      url: "https://diodedemo.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
       target: _blank
 
   - title: Resource publication

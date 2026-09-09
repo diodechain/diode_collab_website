@@ -11,7 +11,7 @@ hero:
   heading: Heading <span>that reflects</span> <span>ad copy</span>.
   buttons:
   - title: Request Demo
-    url: "https://diodedemo.paperform.co/"
+    url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
   image: hero/landing.webp
 
 
@@ -54,14 +54,14 @@ why-diode:
     button:
       title: Request Demo
       class: "btn--blank btn--arrow"
-      url: "https://diodedemo.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
   - title: Eliminate Surveillance
     icon: icons/cli.svg
     content: The world can be a dangerous place. Surveillance by nation-states can lead to cyber threats to your team, and risks to your organization.
     button:
       title: Contact Sales
       class: "btn--blank btn--arrow"
-      url: "https://contactdiode.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"
   - title: Data Compliance
     icon: icons/app.svg
     content: With privacy laws like GDPR and HIPAA, and oversight by regulatory authorities including the SEC, HHS, and U.S. Attorneys General, it is key that you do everything possible to avoid a breach of protected data.
@@ -87,7 +87,7 @@ protected:
     Strict confidentiality in discussions with lawyers, advisors, and consultants is essential for your projects.
   buttons:
   - title: Request Demo
-    url: "https://diodedemo.paperform.co/"
+    url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
   teams:
   - title: Back Office Security
     photo: team/product-development.webp
@@ -134,7 +134,7 @@ developers:
     GMail, Dropbox, and the like just don’t have military-grade security like we provide It is practically impossible for you to be hacked.
   buttons:
   - title: Contact Sales
-    url: "https://contactdiode.paperform.co/"
+    url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"
   image:
     src: story/network-full.webp
     alt: Diode Collab&trade;
@@ -192,7 +192,7 @@ pricing:
       - Enterprise integrations
       - Premium support SLA
     button: Contact Us
-    action: "https://contactdiode.paperform.co/"
+    action: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"
 
 ### Box: What teams are saying
 testimonials:
@@ -228,7 +228,7 @@ solutions:
     button:
       title: Contact Sales
       class: "btn--blank btn--arrow"
-      url: "https://contactdiode.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"
   - title: Military-grade security
     icon: icons/cli.svg
     content: From the beginning, Diode has been designed using world-changing technology to ensure privacy and security in your communications and sharing. No compromises.
@@ -242,7 +242,7 @@ solutions:
     button:
       title: Request Demo
       class: "btn--blank btn--arrow"
-      url: "https://diodedemo.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
 
 ---
 

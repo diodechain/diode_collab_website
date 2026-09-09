@@ -55,12 +55,12 @@ features:
       Communicate, reference, annotate, manage, and collaborate - everything a team working with real world sensitive data requires.
     buttons:
     - title: CONTACT SALES
-      url: "https://contactdiode.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/contact?source=collab.diode.io"
     - title: HOW IT WORKS
       url: "/how-it-works/"
     - title: REQUEST A DEMO
       class: btn--blank btn--arrow
-      url: "https://diodedemo.paperform.co/"
+      url: "https://0xfe0653a2ae721ef89fb1ecd5bd5cb4fb31abc0c6.diode.link/f/demo?source=collab.diode.io"
       target: _blank
 
   - title: Access the Internet from Anywhere
